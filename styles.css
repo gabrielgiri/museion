@@ -1,0 +1,60 @@
+/* styles.css */
+body {
+    background-color: #efeeea;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    padding: 6px;
+    border: solid 1px black;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.mybutton {
+    align-items: center;
+    background-color: #e91284;
+    font-size: 16px;
+    color: white;
+    display: flex;
+    height: 42px;
+    justify-content: center;
+    border-radius: 4px;
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: 900;
+    width: 42px;
+}
+
+.mybutton:hover {
+    background-color: black;
+    color: #efeeea;
+    cursor: pointer;
+    
+}
+
+.wrapper {
+    column-count: 4;
+}
+
+img {
+    max-width: 40px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 0 0 1em 0;
+    font-size: 1.1em;
+}
+
+span {
+    color: #e91284;
+    font-weight: bold;
+}
